@@ -13,15 +13,32 @@ Proyek ini adalah tugas akhir / submission untuk kelas Analisis Data dari Dicodi
 -  Analisis Faktor Cuaca: Grafik batang yang menunjukkan korelasi antara kondisi cuaca (Cerah, Mendung, Hujan Ringan) dengan volume penyewaan
 -  Tren Musiman: Visualisasi garis waktu (Timeline) yang menyoroti pergerakan jumlah pengguna kasual dari bulan ke bulan
 
-#Teknologi yang Digunakan
+# Teknologi yang Digunakan
 -  Bahasa Pemrograman: Python
 -  Manipulasi Data: Pandas
 -  Visualisasi Data: Matplotlib dan Seaborn
 -  Dashboard: Streamlit
 
 # Cara Menjalankan Dashboard Secara Lokal
-1. Clone Repositori: 
-2. Install Dependensi (Library): pip install -r requirements.txt
-3. Jalankan Aplikasi Streamlit: streamlit run dashboard.py
+Ikuti langkah-langkah berikut untuk menjalankan dashboard ini di komputer Anda:
 
-# Live Dashboard
+# 1. Persiapkan Folder Proyek
+Pastikan semua file berikut berada dalam satu folder yang sama:
+- `dashboard.py`
+- `hari_all_data.csv`
+- `jam_all_data.csv`
+- `requirements.txt`
+- 
+# 2. Membuat Virtual Environment
+Sangat disarankan untuk menggunakan Virtual Environment agar tidak terjadi konflik versi library. Buka terminal/command prompt di folder proyek anda, lalu jalankan
+*Windows*
+python -m venv venv
+venv\Scripts\activate
+
+# 3. Instalasi Library yang Dibutuhkan
+Setelah environment aktif, instal semua library yang tertera di requirements.txt dengan menjalankan perintah:
+pip install -r requirements.txt
+
+# 4. Menjalankan Aplikasi Streamlit
+Terakhir, jalankan perintah berikut untuk membuka dashboard di browser Anda:
+(https://bikesharingdashboard-gmnac2w7lps4jdrtjazgxu.streamlit.app/)
